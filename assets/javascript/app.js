@@ -21,8 +21,9 @@ $("#add-gif").on("click", function (e) {
     var newFood = $("#food-input").val().trim();
     food.push(newFood);
     console.log(newFood);
-
+    $("#food-input").val("");
     displayButtons();
+    
 });
 
 
